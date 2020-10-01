@@ -47,11 +47,4 @@ def find_epenser(journalists)
 end
 find_epenser(journalists)
 
-def nbr_handle_per_nbr_character(journalists)
-  puts "- - - - -  andle trier par nbr de lettre- - - - - - "
-  while string.length <=25 
-    one = journalists.select {|handle| handle.tr('@','').length == 1}.size
-  puts nbr_handle_per_nbr_character
-  two = journalists.select {|handle| handle.tr('@','').length == 2}.size
-end 
 
